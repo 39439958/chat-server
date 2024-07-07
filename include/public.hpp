@@ -4,7 +4,10 @@
 enum EnMsgType
 {
     LOGIN_MSG = 1,
-    REG_MSG = 2
+    LOGIN_MSG_ACK,
+    REG_MSG,
+    REG_MSG_ACK,
+    ONE_CHAT_MSG
 };
 
 #endif

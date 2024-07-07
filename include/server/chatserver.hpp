@@ -22,8 +22,8 @@ class ChatServer {
                    Buffer*,
                    Timestamp);
 
-    TcpServer _server;
-    EventLoop *_loop;
+    TcpServer server_;
+    EventLoop *loop_;
 
 };
 
