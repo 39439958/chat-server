@@ -1,6 +1,6 @@
 #include "usermodel.hpp"
 #include "db.hpp"
-#include <iostream>
+
 
 bool UserModel::insert(User &user) {
     char sql[1024] = {0};

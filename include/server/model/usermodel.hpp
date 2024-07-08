@@ -2,6 +2,7 @@
 #define USERMODEL_H
 
 #include "user.hpp"
+#include <iostream>
 
 
 class UserModel {
